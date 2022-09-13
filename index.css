@@ -3,6 +3,10 @@
 
 /*共通*/
 
+html[lang="ja"] {
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+
 body {
 	margin: 0;
 	color: #454545;

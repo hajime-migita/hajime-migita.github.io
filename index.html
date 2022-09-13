@@ -29,11 +29,30 @@
     <div class="cyan"></div>
     <div class="purple"></div>
 
+    <!--ヘッダー-->
+    <header id="header">
+      <!--ヘッダーnav-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active"> <a class="nav-link" href="index.html">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#profile">Profile</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#resarch">Research</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#news">News</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#publication">Publication</a> </li>
+            
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
     <!-- mainvisual -->
     <div id="mv" class="relative">
         <div class="container">
             <div class="row justify-content-center">
-                <img src="img/face_2.png">
+                <!-- <img src="img/face_2.png"> -->
                 <div>
                     <h1>Hajime MIGITA</h1>
                     <!-- <p>右田 創</p> -->
@@ -43,11 +62,12 @@
         </div>
     </div>
     <!-- mainvisual ここまで -->
-
+    <section id="profile">
     <main class="container">
       <div class="bg-box-p">
         <h2><span>P</span>rofile</h2>
         <h3>プロフィール</h3>
+        <img src="img/face_2.png">
         <h3>右田 創 / Hajime MIGITA</h3>
         <h3>所属</h3>
         <p style="color: #808080; padding-left: 1em;">神戸大学 大学院 科学技術イノベーション研究科 科学技術イノベーション専攻 1年</p>
@@ -62,18 +82,24 @@
         </p>
       </div>
     </main>       
-    <main class="container">
-      <div class="bg-box-p">
+    </section>
+    <section id="resarch">
+      <main class="container">
+        <div class="bg-box-p">
 
-        <h2><span>R</span>esearch Topics</h2>
-        <h3>研究テーマ</h3>
-        <p> 
-          <a style="color: rgb(59, 59, 144)" href="https://www.fine.cs.kobe-u.ac.jp/uwb.html#"
-            target="_blank" rel="noopener noreferrer">車載ハーネスの軽量化を実現する有線/無線連携通信技術</a> について研究しています。
-        </p>
-      </div>
-    </main>
-
+          <h2><span>R</span>esearch Topics</h2>
+          <h3>研究テーマ</h3>
+          <p style="padding-left: 1em;"> 
+            DENSO TEN、国際電気通信基礎技術研究所（ATR）と共同で、
+            <a style="color: rgb(59, 59, 144)" href="https://www.fine.cs.kobe-u.ac.jp/uwb.html#"
+              target="_blank" rel="noopener noreferrer">車載ハーネスの軽量化を実現する有線/無線連携通信技術の研究開発</a> に取り組んでいます。
+              <br>私は、データ生成を考慮した車載UWB無線通信のパケット削減スケジューリングの研究をしており、スケジューリングを線形計画問題とすることで最適化しました。
+              現在は、スケジュール計算時間を短縮するヒューリスティックアルゴリズムを開発しています。
+          </p>
+        </div>
+      </main>
+    </section>
+    <section id="news">
     <main class="container">
       <div class="bg-box-p">
         <h2><span>N</span>ews</h2>
@@ -116,6 +142,43 @@
 
       </div>
     </main>
+  </section>
+
+  <section id="publication">
+    <main class="container">
+      <div class="bg-box-p">
+        <h2><span>P</span>ublication</h2>
+        <h3>対外発表</h3>
+
+        <!-- <li>
+          <p style="color: #808080; padding-left: 1em;">
+          
+          </p>
+        </li> -->
+        <h3>ジャーナル・トランザクション（査読付き）</h3>
+          <p style="color: #808080; padding-left: 1em;">
+            Chikara Ohta, Taiyo Tanaka, Hajime Migita, Shuji Yamaguchi, Makoto Takenaka, Patrick Finnerty, Tomio Kamada, “A study on optimization of polling scheduling for in-vehicle UWB wireless networks ,” IEICE Communications Express, 2022 Volume 11 Issue 7 Pages 429-434<br>
+            <a style="color: rgb(59, 59, 144)" href="https://www.jstage.jst.go.jp/article/comex/11/7/11_2022XBL0060/_article"
+            target="_blank" rel="noopener noreferrer">doi: 10.1587/comex.2022XBL0060</a> 
+          </p>
+        
+        <!-- <h3>国際会議（査読付き）</h3>   -->
+
+        <h3>国内発表</h3>
+        <p style="color: #808080; padding-left: 1em;">
+          太田 能, 田中 太陽, 右田 創, 山口 修史, 竹中 誠, フィネルティ パトリック, 鎌田 十三郎, “ 車載UWB通信のためのポーリングスケジューリング最適化と実装評価,” 第66回 システム制御情報学会 研究発表講演会, 講演番号 254-3 (講演登録番号 3203), 2022年5月.
+        </p>
+        <p style="color: #808080; padding-left: 1em;">
+          田中太陽, 右田　創, 山口修史, 竹中　誠, Finnerty Patrick, 鎌田十三郎, 太田　能, “車載 UWB 通信のためのポーリングスケジューリング実装評価,” 2022年電子情報通信学会通信総合大会, B-15-41, Mar., 2022.
+        </p>
+        <p style="color: #808080; padding-left: 1em;">
+          右田　創, 田中太陽, 右田　創, 山口修史, 竹中　誠, Finnerty Patrick, 鎌田十三郎, 太田　能, “車載 UWB 通信のためのポーリングスケジューリング最適化,” 2022年電子情報通信学会通信総合大会, B-15-42, Mar., 2022.
+        </p>
+
+      </div>
+    </main>
+  </section>
+
     <p id="page-top"><a href="theme01header"><img src="img/pagetop.png">PageTop</a></p>
     <!--footer-->
     <footer id="footer">
@@ -132,6 +195,8 @@
                         rel="noopener noreferrer">システム情報学研究科</a></li> -->
                 <li class="col-6 col-lg-3"><a href="http://www.stin.kobe-u.ac.jp/" target="_blank"
                         rel="noopener noreferrer">科学技術イノベーション研究科</a></li>
+                <li class="col-6 col-lg-3"><a href="https://www.fine.cs.kobe-u.ac.jp/" target="_blank"
+                  rel="noopener noreferrer">CS29 Lab</a></li>
             </ul>
         </nav>
         <!-- <img src="img/FINE.png" alt="FINE CS29"> -->
