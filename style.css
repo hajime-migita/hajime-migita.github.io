@@ -1,0 +1,261 @@
+/* main */
+
+.bg-box-p {
+	background-color: #ffffff;
+	border-radius: 30px;
+	box-shadow: 0px 2px 5px rgba(69, 69, 69, 0.2);
+	padding: 50px;
+	margin: 50px auto;
+}
+
+
+/* アコーディオン全体 */
+.accordion-area {
+    list-style: none;
+    width: 96%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.accordion-area li {
+    margin: 10px 0;
+    border-bottom: solid 1px;
+    list-style-type: none;
+}
+
+
+/*アコーディオンタイトル*/
+.title {
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: normal;
+    padding: 3% 3% 3% 50px;
+    transition: all .5s ease;
+    padding: 25px 10px;
+    margin: 0;
+}
+
+.title:hover {
+    color: #ddba4b;
+}
+
+
+/*アイコンの＋と×*/
+
+h3 svg{
+    display:inline-flex;
+    float: right;
+    transition: ease-in-out 500ms;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/*　closeというクラスがついたら形状変化　*/
+
+.close {
+    float: none;
+}
+
+
+.title.close {
+    color: #ddba4b;
+}
+
+.title.close svg{
+    transform: rotate(-135deg);
+}
+
+
+/*アコーディオンで現れるエリア*/
+.box {
+    display: none;
+    /*はじめは非表示*/
+    margin: 0 3% 3% 3%;
+    padding: 3%;
+}
+
+.box li {
+    border: none;
+}
+
+.box p {
+    font-weight: 300;
+}
+
+.box a {
+    color: #4443e8;
+}
+
+
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 25px;
+}
+
+h5::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: -20px;
+    width: 30%;
+    height: 1px;
+    border-bottom: dashed 0.25px #454545;
+
+}
+
+/* テーマ別ボタン */
+
+
+.search {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.search_item {
+    margin: 10px;
+    padding: 10px 0px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.search_item:hover{
+    opacity: 70%;
+}
+
+.search_item.is-active{
+    border-bottom: solid 3px #4443e8;
+    opacity: 100%;
+    font-weight: bolder;
+}
+
+.search.fixed {
+    position: fixed;
+    z-index: 100;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* 絞り込みの設定 */
+
+
+.is-hide {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* タブレット表示 */
+@media (max-width: 991.98px) {
+    #mv {
+        height: 570px;
+        padding-top: 200px;
+    }
+
+    #mv img {
+        bottom: 10%;
+    }
+
+    .subtitle {
+        font-size: 50px;
+    }
+
+
+    h1 {
+        margin: 50px auto;
+    }
+
+    main {
+        margin-top: 70px;
+    }
+
+
+}
+
+/* SP表示 */
+@media (max-width: 767.98px) {
+    /* mainvisual */
+
+    #mv {
+        height: 430px;
+        padding-top: 110px;
+        background-size: cover;
+    }
+
+
+
+
+    #mv h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        letter-spacing: 0;
+    }
+
+    .subtitle {
+        font-size: 36px;
+    }
+
+    #mv img {
+        bottom: 12%;
+    }
+
+    /* main */
+
+    main {
+        margin-top: 0;
+    }
+
+
+    h3 {
+        font-size: 14px;
+        letter-spacing: 0.25em;
+        line-height: 1.8em;
+        text-align: left;
+    }
+
+    .bg-box {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .search_item{
+        padding: 0;
+        font-size: 10px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    .box p{
+        font-size: 13px;
+    }
+
+
+
+
+}
