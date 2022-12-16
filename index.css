@@ -213,7 +213,8 @@ p {
 	/*横幅*/
 	height: 20vh;
 	/*縦幅*/
-	background: #4f8ae8;
+	/* background: #4f8ae8; */
+	background: #00011f;
 	/*背景色*/
 	opacity: 80%;
 	animation: fluidrotate 30s ease 0s infinite;
@@ -242,6 +243,22 @@ p {
 	top: 20%;
 }
 
+.navy {
+	width: 40vh;
+	/*横幅*/
+	height: 40vh;
+	/*縦幅*/
+	background: #00011f;
+	/*背景色*/
+	opacity: 80%;
+	animation: fluidrotate2 30s ease 0s infinite;
+	/*アニメーションの設定*/
+	position: fixed;
+	z-index: -100;
+	left: 70%;
+	top: 20%;
+}
+
 
 .purple {
 	width: 30vh;
@@ -249,6 +266,22 @@ p {
 	height: 30vh;
 	/*縦幅*/
 	background: #8e4fe8;
+	/*背景色*/
+	opacity: 80%;
+	animation: fluidrotate3 30s ease 0s infinite;
+	/*アニメーションの設定*/
+	position: fixed;
+	z-index: -100;
+	left: 20%;
+	top: 15%;
+}
+
+.gold {
+	width: 30vh;
+	/*横幅*/
+	height: 30vh;
+	/*縦幅*/
+	background: #b3ab2d;
 	/*背景色*/
 	opacity: 80%;
 	animation: fluidrotate3 30s ease 0s infinite;
@@ -810,9 +843,26 @@ footer p {
 		left: 55%;
 		top: 20%;
 	}
+	.navy {
+		width: 30vh;
+		/*横幅*/
+		height: 30vh;
+		/*縦幅*/
+		left: 55%;
+		top: 20%;
+	}
 
 
 	.purple {
+		width: 23vh;
+		/*横幅*/
+		height: 23vh;
+		/*縦幅*/
+		left: 10%;
+		top: 15%;
+	}
+
+	.gold {
 		width: 23vh;
 		/*横幅*/
 		height: 23vh;
@@ -925,9 +975,25 @@ footer p {
 		left: 44%;
 		top: 30%;
 	}
+	.navy {
+		width: 30vh;
+		/*横幅*/
+		height: 30vh;
+		/*縦幅*/
+		left: 44%;
+		top: 30%;
+	}
 
 
 	.purple {
+		width: 23vh;
+		/*横幅*/
+		height: 23vh;
+		/*縦幅*/
+		left: 2%;
+		top: 14%;
+	}
+	.gold {
 		width: 23vh;
 		/*横幅*/
 		height: 23vh;
