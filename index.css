@@ -13,6 +13,19 @@ body {
 	font-family: 'Noto Sans JP', sans-serif;
 
 }
+h1 span {
+	color: #454545;
+	text-shadow: 1px 1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff;
+	font-size: 65px;
+}
+
+p span {
+	color: #454545;
+	text-shadow: 1px 1px #ffffff, 1px -1px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff;
+	font-size: 45px;
+}
+
+
 
 h2 {
 	font-size: 32px;
