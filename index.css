@@ -660,7 +660,7 @@ h3 {
 /* News */
 
 .date {
-	/* display: block; */
+	display: block;
 	margin-bottom: 10px;
     color: #666;
 }
