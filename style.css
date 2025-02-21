@@ -41,7 +41,6 @@
 
 
 /*アイコンの＋と×*/
-
 h3 svg{
     display:inline-flex;
     float: right;
@@ -50,10 +49,7 @@ h3 svg{
     height: 20px;
 }
 
-
-
 /*　closeというクラスがついたら形状変化　*/
-
 .close {
     float: none;
 }
@@ -88,8 +84,6 @@ h3 svg{
     color: #4443e8;
 }
 
-
-
 h5 {
     font-size: 18px;
     font-weight: bold;
@@ -106,12 +100,9 @@ h5::before {
     width: 30%;
     height: 1px;
     border-bottom: dashed 0.25px #454545;
-
 }
 
 /* テーマ別ボタン */
-
-
 .search {
     list-style-type: none;
     padding: 0;
@@ -146,8 +137,6 @@ h5::before {
 }
 
 /* 絞り込みの設定 */
-
-
 .is-hide {
     display: none;
 }
@@ -191,8 +180,6 @@ h5::before {
     main {
         margin-top: 70px;
     }
-
-
 }
 
 /* SP表示 */
@@ -204,9 +191,6 @@ h5::before {
         padding-top: 110px;
         background-size: cover;
     }
-
-
-
 
     #mv h1 {
         font-size: 50px;
@@ -223,11 +207,9 @@ h5::before {
     }
 
     /* main */
-
     main {
         margin-top: 0;
     }
-
 
     h3 {
         font-size: 14px;
@@ -254,10 +236,4 @@ h5::before {
     .box p{
         font-size: 13px;
     }
-
-    
-
-
-
-
 }
